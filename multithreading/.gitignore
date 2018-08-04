@@ -1,0 +1,10 @@
+/.classpath
+/.externalToolBuilders
+/.project
+/.settings
+/target
+*.iml
+.idea/
+/catalina.*/
+/LOG_HOME_IS_UNDEFINED
+/catalina.home_IS_UNDEFINED
