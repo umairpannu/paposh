@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="multithreading" />
+        <module name="springbatchprocessingdata" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="multithreading" target="1.8" />
       <module name="paposh" target="1.5" />
+      <module name="springbatchprocessingdata" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

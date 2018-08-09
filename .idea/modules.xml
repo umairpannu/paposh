@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/multithreading/multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/paposh.iml" filepath="$PROJECT_DIR$/paposh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbatchprocessingdata/springbatchprocessingdata.iml" filepath="$PROJECT_DIR$/springbatchprocessingdata/springbatchprocessingdata.iml" />
     </modules>
   </component>
 </project>
