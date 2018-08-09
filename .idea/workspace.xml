@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f9239fe-21e6-47e1-9195-3a76f6690ba5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multithreading/src/main/java/Locking/UnboundedArrayQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Processor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/SmallTaskThreadFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/multithreading/src/main/java/Main.java" afterPath="$PROJECT_DIR$/multithreading/src/main/java/createThread/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Student.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multithreading/pom.xml" afterPath="$PROJECT_DIR$/multithreading/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Processor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#773#774#0" expanded="true" />
@@ -38,42 +33,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Executor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Executor.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Executor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="421">
               <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Executors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Executors.java">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="88" column="32" lean-forward="true" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
+            <state relative-caret-position="119">
+              <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+              <folding>
+                <element signature="e#158#159#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReferencePipeline.java" pinned="false" current-in-tab="true">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/ReferencePipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadPoolExecutor.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <file leaf-file-name="Function.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="1307" column="11" lean-forward="false" selection-start-line="1307" selection-start-column="8" selection-end-line="1307" selection-end-column="11" />
+            <state relative-caret-position="118">
+              <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecutorService.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ExecutorService.java">
+      <file leaf-file-name="Stream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-137">
-              <caret line="263" column="14" lean-forward="false" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
+            <state relative-caret-position="118">
+              <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+              <folding>
+                <element signature="e#177013#177014#0" expanded="true" />
+                <element signature="e#177054#177055#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +115,7 @@
         <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -93,243 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForkJoinPool.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="2702" column="14" lean-forward="false" selection-start-line="2702" selection-start-column="14" selection-end-line="2702" selection-end-column="14" />
-              <folding>
-                <element signature="docComment;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#checkPermission#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#checkPermission#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;class#ForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#ForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#newThread#0;class#ForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;class#DefaultForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#DefaultForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;class#EmptyTask#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#EmptyTask#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#INITIAL_QUEUE_CAPACITY#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#MAXIMUM_QUEUE_CAPACITY#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#WorkQueue#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getPoolIndex#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#queueSize#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#queueSize#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#isEmpty#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#isEmpty#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#push#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#push#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#growArray#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#growArray#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#pop#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#pop#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#pollAt#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#pollAt#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#poll#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#poll#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#nextLocalTask#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#peek#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#peek#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#tryUnpush#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#tryUnpush#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#cancelAll#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#cancelAll#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#pollAndExecAll#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#pollAndExecAll#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#execLocalTasks#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#execLocalTasks#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#runTask#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#runTask#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#transferStealCount#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#transferStealCount#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#tryRemoveAndExec#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#tryRemoveAndExec#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#popCC#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#popCC#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#pollAndExecCC#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#pollAndExecCC#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#isApparentlyUnblocked#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#isApparentlyUnblocked#0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="initializer##0;class#WorkQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#defaultForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#modifyThreadPermission#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#common#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#commonParallelism#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#commonMaxSpares#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#poolNumberSequence#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#nextPoolId#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#IDLE_TIMEOUT#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#TIMEOUT_SLOP#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#DEFAULT_COMMON_MAX_SPARES#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#SPINS#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#SEED_INCREMENT#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#lockRunState#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#lockRunState#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#awaitRunStateLock#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#awaitRunStateLock#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#unlockRunState#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#unlockRunState#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#createWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#createWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#tryAddWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#tryAddWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#registerWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#registerWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#deregisterWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#deregisterWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#signalWork#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#signalWork#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#tryRelease#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#tryRelease#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#runWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#runWorker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#scan#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#scan#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#awaitWork#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#awaitWork#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#helpComplete#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#helpComplete#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#helpStealer#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#helpStealer#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#tryCompensate#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#tryCompensate#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#awaitJoin#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#awaitJoin#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#findNonEmptyStealQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#findNonEmptyStealQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#helpQuiescePool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#helpQuiescePool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#nextTaskFor#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#nextTaskFor#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getSurplusQueuedTaskCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#getSurplusQueuedTaskCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#tryTerminate#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#tryTerminate#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#externalSubmit#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#externalSubmit#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#externalPush#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#externalPush#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#commonSubmitterQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#commonSubmitterQueue#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#tryExternalUnpush#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#tryExternalUnpush#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#externalHelpComplete#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#externalHelpComplete#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="e#113107#113126#0" expanded="false" />
-                <element signature="docComment;method#ForkJoinPool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#ForkJoinPool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#ForkJoinPool#1;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#ForkJoinPool#2;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#ForkJoinPool#2;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#checkParallelism#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#checkFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#ForkJoinPool#3;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#ForkJoinPool#3;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#commonPool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#commonPool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#invoke#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#invoke#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#execute#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#execute#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#execute#1;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#execute#1;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#submit#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#submit#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#submit#1;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#submit#1;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#submit#2;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#submit#2;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#submit#3;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#invokeAll#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#invokeAll#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="e#122401#122463#0" expanded="false" />
-                <element signature="docComment;method#getFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getUncaughtExceptionHandler#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getParallelism#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#getParallelism#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getCommonPoolParallelism#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getPoolSize#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getAsyncMode#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getRunningThreadCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#getRunningThreadCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getActiveThreadCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#getActiveThreadCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#isQuiescent#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getStealCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#getStealCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getQueuedTaskCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#getQueuedTaskCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#getQueuedSubmissionCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#getQueuedSubmissionCount#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#hasQueuedSubmissions#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#hasQueuedSubmissions#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#pollSubmission#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#pollSubmission#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#drainTasksTo#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#drainTasksTo#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#toString#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#toString#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#shutdown#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#shutdown#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#shutdownNow#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#shutdownNow#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#isTerminated#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#isTerminating#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#isTerminating#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#isShutdown#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#awaitTermination#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#awaitTermination#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#awaitQuiescence#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#awaitQuiescence#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#quiesceCommonPool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;class#ManagedBlocker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#ManagedBlocker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#block#0;class#ManagedBlocker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#isReleasable#0;class#ManagedBlocker#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;method#managedBlock#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#managedBlock#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="e#145145#145210#0" expanded="false" />
-                <element signature="method#newTaskFor#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#newTaskFor#1;class#ForkJoinPool#0" expanded="false" />
-                <element signature="initializer##0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#148039:148159" expanded="false" />
-                <element signature="method#run#0;class#148039:148159" expanded="false" />
-                <element signature="docComment;method#makeCommonPool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#makeCommonPool#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;class#InnocuousForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#InnocuousForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="docComment;field#innocuousAcc#0;class#InnocuousForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="initializer##0;class#InnocuousForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="method#newThread#0;class#InnocuousForkJoinWorkerThreadFactory#0;class#ForkJoinPool#0" expanded="false" />
-                <element signature="class#151328:151585" expanded="false" />
-                <element signature="method#run#0;class#151328:151585" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ForkJoinTask.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/ForkJoinTask.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="262" column="49" lean-forward="true" selection-start-line="262" selection-start-column="49" selection-end-line="262" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Future.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Future.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -371,6 +167,8 @@
         <option value="$PROJECT_DIR$/multithreading/pom.xml" />
         <option value="$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Main.java" />
         <option value="$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Processor.java" />
+        <option value="$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Student.java" />
+        <option value="$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Main.java" />
       </list>
     </option>
   </component>
@@ -464,36 +262,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paposh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="paposh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="multithreading" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ThreadPool" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1041,7 +809,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14609000" />
+    <option name="totallyTimeSpent" value="17806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1057,9 +825,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1353,30 +1121,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="100" column="0" lean-forward="true" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="269" column="26" lean-forward="false" selection-start-line="269" selection-start-column="26" selection-end-line="269" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/ReferencePipeline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="447" column="25" lean-forward="false" selection-start-line="447" selection-start-column="25" selection-end-line="447" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/Locking/UnboundedArrayQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1480,8 +1224,8 @@
         <state relative-caret-position="135">
           <caret line="631" column="21" lean-forward="false" selection-start-line="631" selection-start-column="21" selection-end-line="631" selection-end-column="21" />
           <folding>
-            <element signature="e#23678#23679#0" expanded="true" />
-            <element signature="e#23731#23732#0" expanded="true" />
+            <element signature="e#23678#23679#0" expanded="false" />
+            <element signature="e#23731#23732#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1752,7 +1496,7 @@
     <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1760,7 +1504,7 @@
     <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/ThreadPool/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#773#774#0" expanded="true" />
@@ -1771,8 +1515,64 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="421">
           <caret line="139" column="9" lean-forward="false" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="3798" column="30" lean-forward="false" selection-start-line="3798" selection-start-column="30" selection-end-line="3798" selection-end-column="30" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="269" column="18" lean-forward="false" selection-start-line="269" selection-start-column="18" selection-end-line="269" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multithreading/src/main/java/StreamsParallel/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/function/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="40" column="17" lean-forward="false" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/stream/ReferencePipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="56" column="44" lean-forward="false" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="44" />
           <folding />
         </state>
       </provider>
